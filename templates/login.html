@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Login Page</title>
+{% endblock %}
+
+
+
+{% block body %}
+<h1>LOGIN PAGE</h1>
+<form method="post">
+    proname <input type="text" name="username"/>
+    <br>
+    procode <input type="text" name="passcode"/>
+    <br>
+    
+    
+    <input type="submit">
+
+</form>
+<br>
+<p>SIGN UP for new users <a href="signup">Click Here</a></p>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>SIGNUP PAGE</title>
+{% endblock %}
+
+
+
+{% block body %}
+<h1>SIGNUP PAGE</h1>
+<br>
+<form method="post">
+    Firstname           <input type="text" name="firstname"/>
+    <br>
+    Lastname            <input type="text" name="lastname"/>
+    <br>
+    email               <input type="text" name="email"/ >
+    <br>
+    MobileNumber        <input type="text" name="number" />
+    <br>
+    password            <input type="password" name="password" />
+    <br>
+    re-enter password   <input type="password" name="password2" />
+    <br>    
+    <input type="submit">
+
+</form>
+<br>
+<p>SIGN UP for existing users <a href="login">Click Here</a></p>
+<div>
+    <p>The Identity will verify and send you a mail within <h3> 48 hours </h3></p>
+</div>
+{% endblock %}
